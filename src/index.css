@@ -1,0 +1,5 @@
+@import "tailwindss";
+
+@theme {
+  --color-bg: 255 255 255;
+}
