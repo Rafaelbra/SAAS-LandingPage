@@ -1,6 +1,7 @@
 import Button from "../shared/Button";
 import Container from "../shared/Container";
 import Paragraph from "../shared/Paragraph";
+import Numbers from "./Numbers";
 
 
 export default function Hero() {
@@ -44,13 +45,23 @@ export default function Hero() {
                                 </span>
                                 <input type="email" placeholder="johndoe@gmail.com" className="w-full py-3 outline-none bg-transparent" />
                                 <Button className="min-w-max text-white">
-                                    <span className="hidden sm:flex relative z-[5]">Get Started</span>
+                                    <span className="relative z-[5]">Get Started</span>
                                 </Button>
                             </form>
                         </div>
                     </div>
                 </div>
+                <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
+                    <img
+                        src="https://images.pexels.com/photos/7773731/pexels-photo-7773731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Hero image"
+                        width={2350}
+                        height={2359}
+                        className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-non max-h-96"
+                    />
+                </div>
             </Container>
+            <Numbers />
         </section>
     )
 }
