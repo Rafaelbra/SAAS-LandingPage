@@ -1,4 +1,4 @@
-import Container from "../shared/Container"
+import { Container } from "../shared/Container";
 import logo from '../../assets/logo.png';
 import NavItem from "../shared/NavItem";
 import BtnLink from "../shared/BtnLink";
