@@ -1,8 +1,8 @@
 import { Container } from "../shared/Container"
 import Paragraph from "../shared/Paragraph"
 import { Title } from "../shared/Title"
-import { services } from "../../utils/services-data"
 import { Service } from "../cards/Service"
+import { services } from "../../utils/services.data"
 
 export const Services = () => {
     return (
